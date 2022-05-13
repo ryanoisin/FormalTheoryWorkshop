@@ -1,4 +1,4 @@
-# jonashaslbeck@gmail.com; May 12, 2022
+# robinaugh@gmail.com & jonashaslbeck@gmail.com; May 13, 2022
 
 # ------------------------------------------------
 # -------- What is this? -------------------------
@@ -42,7 +42,7 @@ data<-out0$outmat
 head(data)
 
 # There is quite a bit of information here. 
-# We'll focus on just 2 key comopnents for now.
+# We'll focus on just 2 key components for now.
 
 # A = Physiological Arousal (as indicated by e.g., heart rate)
 # PT = Perceived Threat (how much one perceives a threat in that moment)
@@ -66,7 +66,7 @@ legend("topleft", legend=c("Arousal","Perceived Threat"),
 # aren't especially important here. What is important, is that
 # using this computational model, you were able to deduce
 # precisely what the theory predicts. This gives you a really 
-# powerful tool for evaluating what the theory can prdouce 
+# powerful tool for evaluating what the theory can produce 
 # and, thus, what it can explain. 
 
 # --------------------------------------------------------------
@@ -143,7 +143,7 @@ initial_spec <- list("AS" = 0.4)
 # our first phenomenon we wanted to explain was the sudden
 # surge of arousal and perceived threat *out of the blue.*
 # Can the model produce panic attacks that arise from natural
-# fluctations in arousal. To evaluatek, let's again 
+# fluctuations in arousal. To evaluate, let's again 
 # start with someone with low Arousal schema to see how 
 # the theory predicts arousal and perceived threat will evolve
 # over time in someone who is not vulnerable to panic attacks. 
@@ -190,7 +190,7 @@ initial_spec <- list("AS" = 1.0)
 
 # Let's take a look at one last phenomenon: panic disorder. Can 
 # the model explain the tendency for some individuals to become
-# increasingly conerned about the danger posed by arousal and
+# increasingly concerned about the danger posed by arousal and
 # more vulnerable to recurrent panic attacks? 
 
 initial_spec <- list("AS" = 0.9, "ES"=0) 
